@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Local environment and credentials (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+
+# Logs and diagnostic reports
+logs/
+*.log
+report.*.json
+
+# Generated output and test coverage
+coverage/
+.nyc_output/
+dist/
+build/
+*.tsbuildinfo
+
+# Local caches and temporary files
+.cache/
+.npm/
+tmp/
+temp/
+*.tmp
+
+# Editor and OS files
+.vs/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity generated files (keep Assets, Packages and ProjectSettings)
+/unity/[Ll]ibrary/
+/unity/[Tt]emp/
+/unity/[Oo]bj/
+/unity/[Bb]uild/
+/unity/[Bb]uilds/
+/unity/[Ll]ogs/
+/unity/[Uu]ser[Ss]ettings/
+/unity/.vs/
+/unity/*.csproj
+/unity/*.sln
+/unity/*.slnx
+/unity/*.user
